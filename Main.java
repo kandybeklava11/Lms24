@@ -9,27 +9,7 @@ import java.util.Scanner;
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    public static void main(String[] args) {
-    /*
-    public static <T> void printArrayWithFirstAndLast(T[] array) {
-        /*
-        System.out.println("First element: " + array[0]);
-        System.out.println("Last element: " + array[array.length - 1]);
-
-        System.out.println("All elements:");
-        for (T element : array) {
-            System.out.println(element);
-        }
-    }
-
-
-        Integer[] array = {1, 2, 3, 4, 5,6};
-        printArrayWithFirstAndLast(array);
-
-        String[] stringArray = {"Hello", "World"};
-        printArrayWithFirstAndLast(stringArray);
-
-         */
+    public static void main(String[] args) 
         List<Object> objects = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
         ServiceImple<Object> service = new ServiceImple<>();
